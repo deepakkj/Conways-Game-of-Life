@@ -1,3 +1,10 @@
+This is a React implementation of Conway's Game of Life and is hosted on Firebase. 
+Inspired and implemented from Free Code Camp's videos on React.
+
+## Demo URL
+[Conway's Game of Life Demo URL](https://conway-s-game-of-life.firebaseapp.com/)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
