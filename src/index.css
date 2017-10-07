@@ -1,0 +1,96 @@
+body {
+  position: relative;
+  margin: 0;
+  padding: 0 0 50px 0;
+  font-family: sans-serif;
+  background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/squares.png);
+  background-color: #2a2b2a;
+}
+
+h1, h2, h3, h4 {
+  color: white;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+h1 {
+  margin: 10px auto;
+}
+h4 {
+  margin-top: 0px;
+}
+
+.box {
+  display: inline-block;
+  outline: 1px solid black;
+  width: 15px;
+  height: 15px;
+
+  }
+
+.off {
+  background-color: lightgray;
+}
+
+.on {
+  background-color: green;
+}
+
+.box:hover {
+  background: #00CCFF;
+}
+
+.center {
+  margin: auto;
+  display: table;
+  margin-top: 10px;
+}
+
+.grid {
+  width: 150px;
+  line-height: 0;
+  margin: auto;
+  box-shadow: 0px 0px 20px white;
+}
+
+.buttons-wrapper {
+  text-align: center;
+  padding: 20px;
+}
+
+.buttons-wrapper button, .buttons-wrapper select {
+    border: none;
+    padding: 5px 10px;
+    box-shadow: none;
+    border-radius: 5px;
+    margin: 0 2px;
+    background: #fff;
+    color: #000;
+}
+.buttons-wrapper button:active {
+  background: #ccc;
+  color: #fff;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  clear: both;
+  background: rgba(175, 151, 59, 0.35);
+  padding: 10px;
+  color: #fff;
+  margin-top: 10px;
+}
+footer span:first-child {
+  float: left;
+}
+footer span:first-child a {
+  color: #578dbb;
+}
+footer span:last-child {
+  float: right;
+}
